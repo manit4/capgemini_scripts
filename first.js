@@ -468,22 +468,528 @@
 
 
 
-var names = [
-    'Hafifa',
-    'Manan',
-    'FatimaSindhu',
-    'Varsha'
+// var names = [
+//     'Hafifa',
+//     'Manan',
+//     'FatimaSindhu',
+//     'Varsha'
+// ]
+
+// for( var i = 0; i < names.length; i++ ){
+
+//     console.log( names[i])
+// }
+
+
+
+// var data = [
+//     ['Shivani', 'Bhagyashree', 'Shreya'],
+//     ['Sharma', 'Verma', 'Roy'],
+//     [34534, 6867,4545]
+// ]
+
+// console.log( data[0][0])
+
+// data[2][1] = 57676756;
+
+// console.log( data[2][1] )
+
+
+// var data = [
+//     ['Shivani', 'Bhagyashree', 'Shreya'],
+//     ['Sharma', 'Verma', 'Roy'],
+//     [34534, 6867,4545]
+// ]
+
+// for( var i = 0; i < 3; i++) {
+    
+//     for( var j = 0; j < 3; j++ ) {
+
+//         console.log( data[i][j])
+//     }
+// }
+
+
+// var data = [
+//     'Shivani', 'Hafifa', 'Divya'
+// ]
+
+// data.sort();
+
+// console.log(data)
+
+
+
+// var data = [
+//     53, 32, 9, 100
+// ]
+
+// data.sort();
+
+// console.log(data)
+
+
+// var data = [
+//     53, 32, 9, 100
+// ]
+
+// data.reverse()
+
+// console.log(data)
+
+
+
+// var data = [
+//     53, 32, 9, 100
+// ]
+
+// data.push( 34)
+
+// console.log(data)
+
+
+
+
+// var data = [
+//     53, 32, 9, 100
+// ]
+
+// var deletedItem = data.pop()
+// deletedItem = deletedItem + 50;
+
+// console.log(deletedItem)
+// console.log( data )
+
+
+
+// function print() {
+
+//     console.log( 'Hello')
+// }
+
+// print();
+
+
+
+// function add() {
+
+//     var firstNo = 10;
+//     var secondNo = 20;
+
+//     console.log( firstNo + secondNo )
+// }
+
+// add();
+
+// function add() {
+
+//     var firstNo = 10;
+//     var secondNo = 20;
+
+//     var result = firstNo + secondNo;
+
+//     console.log( result )
+// }
+
+
+
+
+// function add() {
+
+//     var firstNo = 10;
+//     var secondNo = 20;
+
+//     var result = firstNo + secondNo;
+
+//     console.log( result )
+// }
+
+
+
+
+// function add( firstNo, secondNo) {
+
+//    console.log( firstNo + secondNo )
+// }
+
+// add( 20, 43 )
+
+
+
+// function add( firstNo, secondNo) {
+
+//     console.log( firstNo, secondNo)
+//  }
+ 
+//  add( 20 )
+
+
+
+
+// function add( firstNo, secondNo) {
+
+//     console.log( firstNo, secondNo)
+//  }
+ 
+//  add( )
+
+
+
+// function add( firstNo, secondNo) {
+
+//     var result = firstNo + secondNo;
+
+//     return result;
+//  }
+ 
+//  var returnedValue = add( 34, 32 )
+
+//  console.log( returnedValue )
+
+
+
+
+// function add( firstNo, secondNo) {
+
+//     return firstNo + secondNo;
+//  }
+ 
+//  var returnedValue = add( 34, 32 )
+
+//  console.log( returnedValue )
+
+
+
+
+
+// function add( firstNo, secondNo) {
+
+//     return firstNo + secondNo;
+//  }
+ 
+// console.log( add( 10, 20 ))
+
+
+
+
+// var global_x = 20;//this is global variable whcih you can use it anywhere in your file..
+
+// function display() {
+
+//     console.log( global_x )//Here I am accessing the variable declred outside the method
+//                             //since varibles declared outside the method are globally accessible and can be used from anywhere...
+// }
+
+//display();
+
+// var global_x = 10;
+
+// function display1() {
+
+//     var local_1 = 20;
+
+//     console.log( global_x );
+//     console.log( local_1 )
+
+// }
+
+// function display2() {
+
+//     var local_2 = 30;
+
+//     console.log( global_x );
+//     console.log( local_2 );
+
+// }
+
+// display1();
+// display2();
+
+
+
+
+// var global_x = 10;
+
+// function display1() {
+
+//     var local_1 = 20;
+
+//     console.log( global_x );
+//     console.log( local_1 )
+
+// }
+
+// function display2() {
+
+//     var local_2 = 30;
+
+//     console.log( global_x );
+//     console.log ( local_1 );
+//     console.log( local_2 );
+
+// }
+
+// display1();
+// display2();
+
+
+
+
+// function display() {
+
+//     var local_x = 20;
+
+//     for( var i = 0; i < 3; i++ ){
+
+//         console.log( 'value of i inside for is ',i, 'and the value of ', local_x);
+//     }
+
+//     console.log( 'value of i outside for is ',i, 'and the value of ', local_x);
+
+// }
+
+// display();
+
+
+
+
+
+// function display() {
+
+//     var local_x = 20;
+
+//     for( var i = 0; i < 3; i++ ){
+
+//         console.log( 'value of i inside for is ',i, 'and the value of ', local_x);
+//     }
+
+//     console.log( 'value of i outside for is ',i, 'and the value of ', local_x);
+
+// }
+
+// display();
+
+
+// function display() {
+
+//     var local_x = 20;
+
+//     for( let i = 0; i < 3; i++ ){
+
+//         console.log( 'value of i inside for is ',i, 'and the value of ', local_x);
+//     }
+
+//     console.log( 'value of i outside for is ',i, 'and the value of ', local_x);
+
+// }
+
+
+
+
+// let global_x = 10;
+
+// function display() {
+
+//     let local_x = 20;
+
+//     if( local_x > global_x ) {
+
+//         let block_x = 30;
+
+//         console.log('inside if...', block_x)
+//     }
+
+//     console.log(block_x)
+// }
+
+
+
+
+// display();
+
+
+//const val;//it is an error since const variable needs to be assigned with some value and you can not change in //future...
+
+
+// const val = 34;
+
+// val = 40;
+
+// console.log( val );
+
+
+
+
+// console.log( val )
+
+// var val = 5;
+
+
+
+
+// console.log( val )//accessing let variable before declaring is illegal since variable hoisting does not exist...
+
+// let val = 5;
+
+
+
+// var anony = function() {
+
+//     console.log( ' inside add anonymous function' )
+// }
+
+// function add(passed) {
+
+//     passed();
+
+// }
+
+// add( anony )
+
+
+
+
+
+
+
+// function add(passed) {
+
+//     passed();
+
+// }
+// add( function() {
+
+//     console.log( ' inside add anonymous function' )
+// });
+
+
+
+// function passAnony( val ) {
+
+//     console.log(' inside regular function...')
+//     //val();
+// }
+
+// // passAnony(function() {
+// //     console.log('first line')
+// //     console.log('second line')
+// //     console.log('third line')
+// // })
+
+// passAnony(function() {
+//     console.log('fourth line')
+//     console.log('second line')
+//     console.log('nintn line')
+// })
+
+
+
+
+
+
+
+
+
+
+
+
+
+// var names = [
+//     'Anees',
+//     'Varsha',
+//     'Sindhu'
+// ]
+
+
+// names.sort();
+
+// console.log ( names );
+
+
+
+
+// var ages = [
+//     3, 45, 21, 100
+// ]
+
+
+// ages.sort(function(x, y) {
+
+//     return x - y;
+// })
+
+
+// console.log( ages )
+
+
+// var ages = [
+//     3, 45, 21, 100
+// ]
+
+
+// ages.sort(function(x, y) {
+
+//     return y - x;
+// })
+
+
+// console.log( ages )
+
+
+
+// function displayEven( num, passed ) {
+
+//     var num = passed(num);
+    
+//     if( num % 2 == 0 ){
+//         console.log( 'No printed')
+//     }
+
+//     else {
+//         console.log( 'Not Printed')
+//     }
+// }
+
+// displayEven(11, function( data ) {
+
+//     return data * 3;
+// })
+
+
+// function displayEven( anony ) {
+
+//    var num = anony(13);
+
+//     if( num % 2 == 0 ){
+//         console.log(' It is Even Number...')
+//     }
+
+//     else {
+//         console.log('It is Odd Number')
+//     }
+// }
+
+// displayEven( function( data ) {
+
+//     return data + 5;
+// })
+
+
+
+
+
+
+var data = [
+    33, 65, 22, 79
 ]
 
-for( var i = 0; i < names.length; i++ ){
+var data2 = data.filter( function(x) {
+    if( x % 2 == 0){
+        return true;
+    }
+    else {
+        return false;
+    }
+})
 
-    console.log( names[i])
-}
-
-
-
-
-
-
-
-
+console.log(data2)
